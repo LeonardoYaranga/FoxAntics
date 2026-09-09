@@ -188,8 +188,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "047f6038efd7525d",
+  "active": "d43295d66361dfec",
   "lastOpenFiles": [
+    "project.godot-yDXIek",
     "scenes/player/player.tscn-5P4vqn",
     "media/playercamLimitsStarted.png",
     "media/AnimationTreeWithIdleAndRunAnimsConfigured.png",
@@ -202,7 +203,6 @@
     "scenes/player/player.tscn-UBRZG3",
     "scenes/player/player.tscn-q6IDzk",
     "scenes/player/player.tscn-q8gzdd",
-    "scenes/player/player.tscn-4ju6gi",
     "media/ViewOfTheMapLimitedByCameraLimits.png",
     "media/Camera2DLimits.png",
     "media/BoundariesOfLevelBase.png",

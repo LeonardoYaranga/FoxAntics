@@ -35,23 +35,27 @@ En este caso se realiza para cada tile que conformaria el rio en primera intanci
 ## Physics Layers
 Los TileMapLauer en su propiedad TileSet tienen la propiedad de PhysicsLayer que es lo que se configura para que puedan no dejar caer al player al infinito, se debe crear un layer en el inspector y en la ventana de TileSet en Paint se puede pintar el area que colisionara. Como el Mapa no necesita que nadie mas lo detecte y el solo debe ser detectado por el player se coloca en el inspecto CollisionLayer 1 porq la 1 es de platform y en mask no esta ninguna.
 
-![[Screenshot_2026-08-12_19-08-19.png]]
+![[TilesetPaintPaintPropertiesPhisics.png]]
+### One way collision
+Se puede activar en el apartado de TileSet/Paint/Physics/Oneway
 
 # Player
 ## Collision 2D
 En la propiedad Collision que tiene un player: CharacterBody2D
 la manera de entender es que Layer es lo que es dicho objeto, osea si tengo el player ahi, y la capa 2 es player_body entc se seleciona y lo de mask es con que puedo interactura, colisionar, en este caso la layer "platform" seria detectada por  la "player_body".
-![[Screenshot_2026-08-12_18-41-05.png|292]]
-![[Screenshot_2026-08-12_18-35-25.png]]
+![[ProjectSettingLayerNames2DPhysics.png|292]]
+![[CollisionObject2DCollisionLayerAndMask.png]]
 
 ## Camera2D
 Se puede crear una Camera2D dentro de la escena del jugador, asi esta seguira al jugador.
 Ademas se puede limitar segun se requiera hasta donde puede grabar la camara. Eso se obtiene del nivel, en este caso 648aprox en y y 0 en x.
-![[Screenshot_2026-08-13_14-28-28.png|194]]
+![[BoundariesOfLevelBase.png|194]]
 Esas medidas se establecen en la limitacion de la camara.
-![[Screenshot_2026-08-13_14-30-02.png]]
+![[Camera2DLimits.png]]
 Y de esa manera la camara no permite visualizar lo que esta fuera de esas medidas.
 
-![[Screenshot_2026-08-13_14-30-59.png]]
+![[ViewOfTheMapLimitedByCameraLimits.png]]
 Sin embargo tbn se puede configurar por codigo en el script del player para hacerlo menos estatico.
-![[Pasted image 20260813143556.png]]
+![[playercamLimitsStarted.png]]
+## Animation Player & Animation Tree
+Para poder controlar las animaciones del player y su transicion, se crea esta dupla, las animaciones con las keys de los sprites correspondientes del nodod Sprite2D se crea en el AnimationPlayer, luego en el  AnimationTree con Tree Root de AnimationNodeStateMachine se le agrega y une las animaciones, colocando que su transicion entre ellas dependa de una variable que este en el script del Player, en este caso is_still que indica si la velocidad es casi 0 en x en ese caso pasa a idel y sino pasa a run.![[AnimationTreeWithIdleAndRunAnimsConfigured.png]]
