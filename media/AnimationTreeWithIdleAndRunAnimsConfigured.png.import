@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ntbgn2ktfqrc"
-path="res://.godot/imported/Screenshot_2026-08-12_18-35-25.png-ca102c79a6e23842f2005b6fc116f882.ctex"
+uid="uid://dnsban6i0rsws"
+path="res://.godot/imported/AnimationTreeWithIdleAndRunAnimsConfigured.png-89d5a4481e489725336fe70526caa637.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Screenshot_2026-08-12_18-35-25.png"
-dest_files=["res://.godot/imported/Screenshot_2026-08-12_18-35-25.png-ca102c79a6e23842f2005b6fc116f882.ctex"]
+source_file="res://media/AnimationTreeWithIdleAndRunAnimsConfigured.png"
+dest_files=["res://.godot/imported/AnimationTreeWithIdleAndRunAnimsConfigured.png-89d5a4481e489725336fe70526caa637.ctex"]
 
 [params]
 

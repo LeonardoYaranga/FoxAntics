@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://knkimy0xt1mh"
-path="res://.godot/imported/Pasted image 20260813143556.png-35f34fab05d57182e81be9685f34921a.ctex"
+uid="uid://crp17klrw8ntm"
+path="res://.godot/imported/BoundariesOfLevelBase.png-5079dc8a3cbab0683052ec9979bd05cb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Pasted image 20260813143556.png"
-dest_files=["res://.godot/imported/Pasted image 20260813143556.png-35f34fab05d57182e81be9685f34921a.ctex"]
+source_file="res://media/BoundariesOfLevelBase.png"
+dest_files=["res://.godot/imported/BoundariesOfLevelBase.png-5079dc8a3cbab0683052ec9979bd05cb.ctex"]
 
 [params]
 

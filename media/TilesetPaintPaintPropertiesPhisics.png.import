@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqmdyg340p2pw"
-path="res://.godot/imported/Screenshot_2026-08-12_18-41-05.png-96e8e25032fe1b5b7f7f4e8da9394c9a.ctex"
+uid="uid://dt0uu1ssb4ved"
+path="res://.godot/imported/TilesetPaintPaintPropertiesPhisics.png-7796893cd5e90bfc8bed939103e1faee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Screenshot_2026-08-12_18-41-05.png"
-dest_files=["res://.godot/imported/Screenshot_2026-08-12_18-41-05.png-96e8e25032fe1b5b7f7f4e8da9394c9a.ctex"]
+source_file="res://media/TilesetPaintPaintPropertiesPhisics.png"
+dest_files=["res://.godot/imported/TilesetPaintPaintPropertiesPhisics.png-7796893cd5e90bfc8bed939103e1faee.ctex"]
 
 [params]
 
