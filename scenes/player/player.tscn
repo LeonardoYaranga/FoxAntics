@@ -45,7 +45,7 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_h17s1"]
 resource_name = "hurt"
-length = 0.19999999999999998
+length = 0.2
 step = 0.1
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -211,6 +211,9 @@ graph_offset = Vector2(-27, 26.459686)
 [sub_resource type="CircleShape2D" id="CircleShape2D_kr674"]
 radius = 6.0
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mjdfx"]
+size = Vector2(8, 2)
+
 [node name="Player" type="CharacterBody2D" unique_id=1875672956]
 collision_layer = 2
 script = ExtResource("1_gmlin")
@@ -245,6 +248,8 @@ advance_expression_base_node = NodePath("..")
 anim_player = NodePath("../AnimationPlayer")
 
 [node name="HitArea" type="Area2D" parent="." unique_id=1591675412]
+collision_layer = 4
+collision_mask = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HitArea" unique_id=957804607]
 position = Vector2(1, 6)
@@ -257,5 +262,15 @@ one_shot = true
 [node name="HurtSound" type="AudioStreamPlayer" parent="." unique_id=33320726]
 stream = ExtResource("6_75vfm")
 
+[node name="StompArea" type="Area2D" parent="." unique_id=951087618]
+collision_layer = 0
+collision_mask = 16
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StompArea" unique_id=22501355]
+position = Vector2(0, 15)
+shape = SubResource("RectangleShape2D_mjdfx")
+
 [connection signal="area_entered" from="HitArea" to="." method="_on_hit_area_area_entered"]
+[connection signal="area_exited" from="HitArea" to="." method="_on_hit_area_area_exited"]
 [connection signal="timeout" from="HurtTimer" to="." method="_on_hurt_timer_timeout"]
+[connection signal="area_entered" from="StompArea" to="." method="_on_stomp_area_entered"]

@@ -5,8 +5,10 @@
 [ext_resource type="TileSet" uid="uid://62h2p7jg2bci" path="res://resources/forest_tiles.tres" id="3_3tlib"]
 [ext_resource type="PackedScene" uid="uid://dfw1l1lyui3h6" path="res://scenes/player/player.tscn" id="4_ncu3c"]
 [ext_resource type="PackedScene" uid="uid://chjqgu48iftrj" path="res://scenes/kill_zone/kill_zone.tscn" id="5_kr674"]
+[ext_resource type="PackedScene" uid="uid://bgfa8akiydor" path="res://scenes/stomp_box/stomp_box.tscn" id="6_tn631"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_mjdfx"]
+radius = 7.071068
 
 [node name="LevelBase" type="Node" unique_id=967511087]
 
@@ -32,7 +34,14 @@ bottom_limit_cam = 648
 position = Vector2(-4, 824)
 
 [node name="Area2D" type="Area2D" parent="." unique_id=1243465923]
-position = Vector2(180, 620)
+position = Vector2(206, 621)
+collision_layer = 8
+collision_mask = 0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=786355198]
 shape = SubResource("CircleShape2D_mjdfx")
+
+[node name="StompBox" parent="." unique_id=1288746988 instance=ExtResource("6_tn631")]
+position = Vector2(180, 608)
+collision_layer = 16
+collision_mask = 0

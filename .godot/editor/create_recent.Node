@@ -1,7 +1,7 @@
-AudioStreamPlayer
-Timer
 CollisionShape2D
 Area2D
+AudioStreamPlayer
+Timer
 AnimationTree
 AnimationPlayer
 Camera2D
