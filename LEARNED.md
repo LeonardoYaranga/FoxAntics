@@ -59,3 +59,9 @@ Sin embargo tbn se puede configurar por codigo en el script del player para hace
 ![[playercamLimitsStarted.png]]
 ## Animation Player & Animation Tree
 Para poder controlar las animaciones del player y su transicion, se crea esta dupla, las animaciones con las keys de los sprites correspondientes del nodod Sprite2D se crea en el AnimationPlayer, luego en el  AnimationTree con Tree Root de AnimationNodeStateMachine se le agrega y une las animaciones, colocando que su transicion entre ellas dependa de una variable que este en el script del Player, en este caso is_still que indica si la velocidad es casi 0 en x en ese caso pasa a idel y sino pasa a run.![[AnimationTreeWithIdleAndRunAnimsConfigured.png]]
+
+
+# Enemies
+## Raycast2D
+Es un nodo que no puede ser chocado (No tiene Collision Layer) pero si puede chocar a otros nodos(Tiene Collision Mask). Sirve para detectar otros nodos.
+Para este caso se usara Raycast2D para saber cuando se collisiona con paredes o el piso y de esa manera saber cuando cambiar el trayecto de los enemigos, asi estos no se caeran o quedaran pegados en la paredes.

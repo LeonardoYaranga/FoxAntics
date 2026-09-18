@@ -1,0 +1,6 @@
+res://scenes/enemies/snail/snail.tscn
+res://resources/forest_tiles.tres
+res://scenes/enemies/snail/snail.gd
+res://scenes/level_base/level_base.tscn
+res://scenes/stomp_box/stomp_box.tscn
+res://scenes/stomp_box/stomp_box.gd

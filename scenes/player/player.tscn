@@ -264,7 +264,7 @@ stream = ExtResource("6_75vfm")
 
 [node name="StompArea" type="Area2D" parent="." unique_id=951087618]
 collision_layer = 0
-collision_mask = 16
+collision_mask = 48
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StompArea" unique_id=22501355]
 position = Vector2(0, 15)
