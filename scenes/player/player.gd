@@ -4,7 +4,7 @@ extends CharacterBody2D
 #Constants
 var GRAVITY: float = ProjectSettings.get_setting("physics/2d/default_gravity")
 const RUN_SPEED: float = 200.0
-const JUMP_SPEED: float = -300.0
+const JUMP_SPEED: float = -350.0
 const STOMP_SPEED: float = -200.0
 const HURT_VELOCITY: Vector2 = Vector2(0, -200)
 const FLASH_COUNT: int = 6

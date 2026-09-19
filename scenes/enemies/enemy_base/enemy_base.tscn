@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://dmuflld3y4gqb"]
+
+[ext_resource type="Script" uid="uid://c406kfibr88px" path="res://scenes/enemies/enemy_base/enemy_base.gd" id="1_2fyc8"]
+[ext_resource type="PackedScene" uid="uid://bgfa8akiydor" path="res://scenes/stomp_box/stomp_box.tscn" id="1_2hqhx"]
+
+[node name="EnemyBase" type="CharacterBody2D" unique_id=1815605140]
+collision_layer = 0
+script = ExtResource("1_2fyc8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1164068780]
+scale = Vector2(0.75, 0.75)
+animation = &""
+autoplay = "walk"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1783477932]
+position = Vector2(0, 3)
+rotation = 1.5707964
+
+[node name="WallRay" type="RayCast2D" parent="." unique_id=802010970]
+target_position = Vector2(-15, 0)
+
+[node name="FloorRay" type="RayCast2D" parent="." unique_id=635277581]
+position = Vector2(-5, 0)
+target_position = Vector2(0, 12)
+
+[node name="StompBox" parent="." unique_id=1288746988 instance=ExtResource("1_2hqhx")]
+position = Vector2(0, -5)
+collision_layer = 16
+collision_mask = 0
+
+[node name="HitArea" type="Area2D" parent="." unique_id=2064309042]
+collision_layer = 8
+collision_mask = 0
+
+[node name="HitCollShape" type="CollisionShape2D" parent="HitArea" unique_id=859095530]
+position = Vector2(0, 3)
+rotation = 1.5707964
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="stomped" from="StompBox" to="." method="_on_stomp_box_stomped"]

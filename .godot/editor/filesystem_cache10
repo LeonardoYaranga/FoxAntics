@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1789667849
+::res://::1789772363
 CHALLENGES.md::TextFile::-1::1786476172::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::5004892831581340111::1779228806::1786468684::1::::<><><>0<>0<>c11c1d3b3f09601be33adc4ef8b180d3<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 LEARNED.md::TextFile::-1::1789589937::0::1::::<><><>0<>0<><>::
@@ -285,21 +285,21 @@ TerrainPipes.png::CompressedTexture2D::5471305757621492917::1786501797::17865038
 TileMapGeneral.png::CompressedTexture2D::2972793131878170609::1786500856::1786503847::1::::<><><>0<>0<>8d2a2069d95738f3064846fa73617fc3<>res://.godot/imported/TileMapGeneral.png-1bc756aaaa16376ddbff8724a48e95b2.ctex::
 TilesetPaintPaintPropertiesPhisics.png::CompressedTexture2D::8545710974020761495::1786579715::1786661105::1::::<><><>0<>0<>accb98bbf1952e56d5a5bb367c451208<>res://.godot/imported/TilesetPaintPaintPropertiesPhisics.png-7796893cd5e90bfc8bed939103e1faee.ctex::
 ViewOfTheMapLimitedByCameraLimits.png::CompressedTexture2D::5081516927790302638::1786649474::1786661105::1::::<><><>0<>0<>e6f21a8f95f03626cff98e80f9517aa1<>res://.godot/imported/ViewOfTheMapLimitedByCameraLimits.png-74b231ba098850cd1bae518d2d2c3ae3.ctex::
-::res://resources/::1789602411
-forest_tiles.tres::TileSet::2232066425225408040::1789602411::0::1::::<><><>0<>0<><>::uid://cv76nvjgn7eth::::res://assets/tiles/pixel_platformer.png
+::res://resources/::1789667976
+forest_tiles.tres::TileSet::2232066425225408040::1789667976::0::1::::<><><>0<>0<><>::uid://cv76nvjgn7eth::::res://assets/tiles/pixel_platformer.png
 ::res://scenes/::1789587170
 ::res://scenes/enemies/::1789587176
-::res://scenes/enemies/snail/::1789604520
-snail.gd::GDScript::2613454113165556111::1789587836::0::1::::<>CharacterBody2D<><>0<>0<><>::
-snail.tscn::PackedScene::4831904721674812575::1789604520::0::1::::<><><>0<>0<><>::uid://bt4ytkcn761d5::::res://assets/images/enemies/Snail/Walk (38x24).png<>uid://crdee775b6db6::::res://assets/images/enemies/Snail/Hit (38x24).png<>uid://bdh8hb1galb08::::res://scenes/enemies/snail/snail.gd<>uid://bgfa8akiydor::::res://scenes/stomp_box/stomp_box.tscn
+::res://scenes/enemies/snail/::1789671755
+snail.gd::GDScript::2613454113165556111::1789671755::0::1::::<>CharacterBody2D<><>0<>0<><>::
+snail.tscn::PackedScene::4831904721674812575::1789671755::0::1::::<><><>0<>0<><>::uid://bt4ytkcn761d5::::res://assets/images/enemies/Snail/Walk (38x24).png<>uid://crdee775b6db6::::res://assets/images/enemies/Snail/Hit (38x24).png<>uid://bdh8hb1galb08::::res://scenes/enemies/snail/snail.gd<>uid://bgfa8akiydor::::res://scenes/stomp_box/stomp_box.tscn
 ::res://scenes/game_hud/::1786468616
 game_hud.gd::GDScript::2854750652173425583::1779229278::0::1::::<>Control<><>0<>0<><>::
 game_hud.tscn::PackedScene::5146146563888407521::1780243110::0::1::::<><><>0<>0<><>::uid://bgw4ldbjl4r40::::res://scenes/game_hud/game_hud.gd
 ::res://scenes/kill_zone/::1786648555
 kill_zone.gd::GDScript::7339291878042146162::1786648555::0::1::::<>Area2D<><>0<>0<><>::
 kill_zone.tscn::PackedScene::5283725956063269279::1786648555::0::1::::<><><>0<>0<><>::uid://dcthchcxsivc1::::res://scenes/kill_zone/kill_zone.gd
-::res://scenes/level_base/::1789602411
-level_base.tscn::PackedScene::171515304482010273::1789602411::0::1::::<><><>0<>0<><>::uid://cfk3jubr8nsjp::::res://scenes/game_hud/game_hud.tscn<>uid://c4d1wfviklhvq::::res://assets/backgrounds/free-cartoon-forest-game-backgrounds/PNG/Cartoon_Forest_BG_04/Cartoon_Forest_BG_04.png<>uid://62h2p7jg2bci::::res://resources/forest_tiles.tres<>uid://dfw1l1lyui3h6::::res://scenes/player/player.tscn<>uid://chjqgu48iftrj::::res://scenes/kill_zone/kill_zone.tscn<>uid://ca3u1aek8kn7l::::res://scenes/enemies/snail/snail.tscn<>uid://cija2ojuc2tap::::res://scenes/trampoline/trampoline.tscn
+::res://scenes/level_base/::1789670257
+level_base.tscn::PackedScene::171515304482010273::1789670257::0::1::::<><><>0<>0<><>::uid://cfk3jubr8nsjp::::res://scenes/game_hud/game_hud.tscn<>uid://c4d1wfviklhvq::::res://assets/backgrounds/free-cartoon-forest-game-backgrounds/PNG/Cartoon_Forest_BG_04/Cartoon_Forest_BG_04.png<>uid://62h2p7jg2bci::::res://resources/forest_tiles.tres<>uid://dfw1l1lyui3h6::::res://scenes/player/player.tscn<>uid://chjqgu48iftrj::::res://scenes/kill_zone/kill_zone.tscn<>uid://ca3u1aek8kn7l::::res://scenes/enemies/snail/snail.tscn<>uid://cija2ojuc2tap::::res://scenes/trampoline/trampoline.tscn
 ::res://scenes/main/::1786468616
 main.gd::GDScript::2482671605041324240::1779229178::0::1::::<>Control<><>0<>0<><>::
 main.tscn::PackedScene::1609758229276116496::1779280858::0::1::::<><><>0<>0<><>::uid://bbmvid3obdmm7::::res://scenes/main/main.gd<>uid://dneel5ip6l2i4::::res://assets/font/TitanOne-Regular.ttf
@@ -308,9 +308,9 @@ player.gd::GDScript::6108571232198520713::1789602604::0::1::::Player<>CharacterB
 player.tscn::PackedScene::7557222249121138365::1789602604::0::1::::<><><>0<>0<><>::uid://kduxgf7wgu6q::::res://assets/player/player.png<>uid://ctbbjmy60idy4::::res://scenes/player/player.gd<>uid://dg3emq0xnbq2w::::res://scenes/player_cam/player_cam.tscn<>uid://dgsctfc45r16f::::res://assets/sounds/jump.wav<>uid://b42xdf6b6082m::::res://assets/sounds/land.wav<>uid://v4nymmgxy8qp::::res://assets/sounds/damage.wav
 ::res://scenes/player_cam/::1786649911
 player_cam.tscn::PackedScene::7638462867575254372::1786649911::0::1::::<><><>0<>0<><>::
-::res://scenes/stomp_box/::1789602616
-stomp_box.gd::GDScript::8570702744797713249::1788989831::0::1::::StompBox<>Area2D<><>0<>0<><>::
-stomp_box.tscn::PackedScene::82880428862770297::1789602616::0::1::::<><><>0<>0<><>::uid://dudyhsv66sw0x::::res://scenes/stomp_box/stomp_box.gd
+::res://scenes/stomp_box/::1789671367
+stomp_box.gd::GDScript::8570702744797713249::1789671172::0::1::::StompBox<>Area2D<><>0<>0<><>::
+stomp_box.tscn::PackedScene::82880428862770297::1789671367::0::1::::<><><>0<>0<><>::uid://dudyhsv66sw0x::::res://scenes/stomp_box/stomp_box.gd
 ::res://scenes/trampoline/::1789328862
 trampoline.gd::GDScript::7157909162188425574::1789327662::0::1::::Trampoline<>Area2D<><>0<>0<><>::
 trampoline.tscn::PackedScene::5352980482855037459::1789328862::0::1::::<><><>0<>0<><>::uid://bo7serr18xciw::::res://assets/sounds/159375__greenhourglass__8-bit-boing.wav<>uid://c88lyoe5o4ckc::::res://scenes/trampoline/trampoline.gd<>uid://b54j7n85ogdur::::res://assets/images/trampoline/Jump (28x28).png

@@ -65,3 +65,9 @@ Para poder controlar las animaciones del player y su transicion, se crea esta du
 ## Raycast2D
 Es un nodo que no puede ser chocado (No tiene Collision Layer) pero si puede chocar a otros nodos(Tiene Collision Mask). Sirve para detectar otros nodos.
 Para este caso se usara Raycast2D para saber cuando se collisiona con paredes o el piso y de esa manera saber cuando cambiar el trayecto de los enemigos, asi estos no se caeran o quedaran pegados en la paredes.
+## Eliminated
+Al eliminar a un enemigo y se ejecute funciones donde muestre la animacion de morir, es mejor si desactiva su area de "hit" y detiene su movimiento. Se debe hacer de manera diferida para evitar problemas: "set_physics_process.call_deferred(false)
+	hit_coll_shape.call_deferred("set_disabled",true)"
+
+# Inheritance
+Se puede crear una escena Enemy_Base de la cual hereden los demas enemigos para generalizar aspectos como el movimiento, ejecucion de animaciones, entre otros aspectos. Cada enemigo hijo puede implementar sus figuras de colision ajustadas a su sprite y puede sobreescribir funciones si quiere modificar su comportamiento en cierto aspecto.

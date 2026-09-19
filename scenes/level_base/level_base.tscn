@@ -36,11 +36,5 @@ position = Vector2(238, 632)
 
 [node name="Enemies" type="Node" parent="." unique_id=2141212942]
 
-[node name="Snail" parent="Enemies" unique_id=1474147493 instance=ExtResource("7_48c0a")]
-position = Vector2(139, 424)
-
-[node name="Snail2" parent="Enemies" unique_id=76813805 instance=ExtResource("7_48c0a")]
-position = Vector2(600, 495)
-
-[node name="Snail3" parent="Enemies" unique_id=1846133895 instance=ExtResource("7_48c0a")]
-position = Vector2(296, 423)
+[node name="Snail" parent="Enemies" unique_id=1815605140 instance=ExtResource("7_48c0a")]
+position = Vector2(328, 490)
